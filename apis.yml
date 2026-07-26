@@ -1,8 +1,27 @@
 aid: dewpoint-therapeutics
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/dewpoint-therapeutics.png
 name: Dewpoint Therapeutics
-description: Dewpoint Therapeutics is a company surfaced as a portfolio company of general-catalyst and
-  added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: Dewpoint Therapeutics is a biotechnology company applying the emerging
+  science of biomolecular condensates to drug discovery. Founded in 2018 and headquartered
+  in Boston, Massachusetts, with an additional research site in Dresden, Germany, Dewpoint
+  has built an AI-powered, end-to-end platform (ERSA, powered by ERSAi) spanning target
+  discovery, condensate-modulating (c-mod) drug discovery, optimization, and development.
+  Its pipeline targets previously undruggable diseases across oncology, neurodegeneration,
+  cardiopulmonary, and virology, with collaborations including Bayer, Novo Nordisk,
+  Evotec, and Chemify. Dewpoint is a General Catalyst portfolio company; it operates
+  internal research platforms and the open CD-CODE condensate knowledge platform
+  (condensates.com), but does not publish a public developer API.
 url: https://raw.githubusercontent.com/api-evangelist/dewpoint-therapeutics/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,14 +29,54 @@ x-backed-by:
 - general-catalyst
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-hq: 451 D Street, Suite 104, Boston, MA 02210, USA
+x-founded: '2018'
+x-api-surface: none
+x-api-surface-note: Biotech drug-discovery company; internal ERSA/ERSAi platforms and
+  the open CD-CODE research knowledge platform, but no public developer API as of 2026-07-18.
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Biotechnology
+- Drug Discovery
+- Pharmaceuticals
+- Life Sciences
+- Biomolecular Condensates
+- Artificial Intelligence
+- Oncology
+- Neurodegeneration
 apis: []
+common:
+- type: Website
+  name: Dewpoint Therapeutics Website
+  url: https://dewpointx.com/
+- type: About
+  name: About Dewpoint Therapeutics
+  url: https://dewpointx.com/about-us/
+- type: Blog
+  name: News
+  url: https://dewpointx.com/news/
+- type: Support
+  name: Contact
+  url: https://dewpointx.com/contact/
+- type: TermsOfService
+  name: Terms of Service
+  url: https://dewpointx.com/terms/
+- type: PrivacyPolicy
+  name: Privacy Policy
+  url: https://dewpointx.com/privacy/
+- type: Careers
+  name: Careers
+  url: https://dewpointx.com/careers/
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
